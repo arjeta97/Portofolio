@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@700&family=Work+Sans:wght@300&display=swap');
+body{
+  background-color:#0A043C;
+}
+/* --------------------------------------------------NAVBAR--------------------------------------------------------------------- */
+
+.navbar1{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color:#053F5E;
+  font-family: 'Work Sans', sans-serif;
+}
+
+#navbarNav{
+  justify-content: center;
+}
+
+nav a.nav-li {
+  font-weight: 500;
+  letter-spacing: 0.3vh;
+  cursor: pointer;
+}
+
+nav ul li{
+  font-family: 'Roboto Slab', serif;
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus{
+  border-bottom: #21E6C1 0.4rem solid;
+};
+
+.navbar-nav > li > a:hover{
+  border-bottom:#21E6C1 0.4rem solid;
+}
+
+.navbar-toggler-icon{
+  background-color: #21E6C1;
+}
+
+/* --------------------------------------------------------BODY-------------------------------------------------------------- */
+
+.container-fluid{
+  width: 100%;
+  color: rgb(241, 240, 167);
+  background-color:#022C43;
+}
+
+/* ------------------------------------------------------------HOME--------------------------------------------------------------- */
+
+#home-bg{
+  background-position: center;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh; 
+  padding: 50px 0;  
+  justify-content: center;
+  font-family: 'Work Sans', sans-serif;
+ }
+
+ span{
+  font-family: 'Roboto Serif', sans-serif;
+  color: #FFE3DE;
+ }
+
+ .home-snapic{
+   border-radius: 50%;
+   width: 300px;
+   height: 300px;
+   position: static;
+   border: #21E6C1 0.3rem dashed;
+ }
+
+ #home-intro{
+   display: flex;
+   flex-direction: column;
+   color: #21E6C1;
+   justify-content: center;
+   font-family: 'Work Sans', sans-serif;
+ }
+
+.home-text{
+  font-family: 'Work Sans', sans-serif;
+  color: #FFE3DE;
+}
+
+
+/* ---------------------------------------------------ABOUT---------------------------------------------------------------------- */
+
+#About{
+  height: 150vh;
+  color: #FFE3DE; 
+  font-family: 'Work Sans', sans-serif;
+}
+
+.photoAbout{
+   border-radius: 50%;
+   position: static;
+}
+
+#titleAbout{
+  border-bottom: #21E6C1 solid 0.3rem;
+  color: #FFE3DE;
+  font-family: 'Roboto Slab', serif;
+}
+
+#about-p > p{
+  display: flex;
+  justify-content: center;
+  padding: 50px 0;
+}
+
+.about-title{
+  color: #21E6C1;
+  font-family: 'Roboto Serif', sans-serif;
+  text-align: center;
+}
+
+i{
+  color: #21E6C1;
+}
+
+#skill{
+  color: #21E6C1;
+}
+
+.col-md-4 > ul{
+display: flex;
+flex-direction: column;
+justify-content: center;
+text-align: center;
+list-style: none;
+}
+
+/* ----------------------------------------------------CONTACT--------------------------------------------------------------- */
+
+#conatct-page{
+  height: 110vh;
+  color: #FFE3DE; font-family: 'Work Sans', sans-serif;
+}
+
+#contact-page, h1{
+  color: #FFE3DE;
+  font-family: 'Roboto Slab', serif;
+  border-bottom: #21E6C1 solid 0.3rem;
+}
+
+#conatct-page>h3>b{
+  color: #21E6C1;
+}
+
+#conatct-page>p>b{
+  color: #21E6C1;
+}
+
+.form-group>input{
+  border-bottom: #21E6C1 0.2rem solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  cursor: pointer;
+  color: #FFE3DE;
+  margin: 1rem;
+}
+
+.form-group>textarea{
+  border-bottom: #21E6C1 0.2rem solid;
+  border-top: #21E6C1 0.2rem solid;
+  border-left: #21E6C1 0.2rem solid;
+  border-right:#21E6C1 0.2rem solid;
+  cursor: pointer;
+  color: #FFE3DE;
+  margin: 1rem;
+}
+
+#butoni{
+  background-color: #053F5E;
+  border: none;
+  cursor: pointer;
+  width: 65%;
+  padding: 0.4rem;
+  margin: 0.8rem;
+  color: #FFE3DE;
+  border-radius: 1rem;
+}
+
+#butoni:hover{
+  color: #FFE3DE;
+  background-color: #21E6C1;
+  font-size: large;
+}
+
+/* -------------------------------------------------------FOOTER---------------------------------------------------------------- */
+
+.Footer{
+  background-color: #053F5E;
+  color: #FFE3DE;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  font-family: 'Work Sans', sans-serif;
+  padding: 1rem;
+}
+
+.icon >a{
+  font-size: 1.8rem;
+  color: #FFE3DE;
+  text-decoration: none;
+}
+
+.icon >a:hover{
+  color: #21E6C1;
+}
+
+/* --------------------------------------------PORTOFOLIO------------------------------------------------------------------- */
+
+.portofoliopic{
+  border-radius: 50%;
+  border: #21E6C1 0.3rem dashed;
+  opacity: 0.7;
+}
+
+#portotext1{
+  color: #FFE3DE;
+  font-family: 'Roboto Slab', serif;
+  border-bottom: #21E6C1 solid 0.3rem;
+  padding: 0.5rem;
+}
+#portotext{
+  font-family: 'Work Sans', sans-serif;
+  color: #FFE3DE;
+  padding: 1.3rem;
+}
+
+#first-row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+}
+
+#first-row > .col-md-3{
+  padding: 1rem;
+}
+#first-row > .col-md-3>p{
+  font-family: 'Work Sans', sans-serif;
+  color: #FFE3DE;
+  padding: 0.8rem;
+}
+
+#first-row > .col-md-4{
+  padding: 1.5rem;
+}
+#first-row > .col-md-4>p{
+  font-family: 'Work Sans', sans-serif;
+  color: #FFE3DE;
+  padding: 0.8rem;
+}
+/* -----------------------------------------------ABOUT MOBILE------------------------------------------------------------------------- */
+@media only screen and (max-device-width: 480px) {
+  #About{
+      height: 300vh;
+  }
+   #home-bg{
+     height: 130vh;
+   }
+   #conatct-page{
+     height: 170vh;
+   }
+ }
+
