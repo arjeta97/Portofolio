@@ -10,11 +10,11 @@ function Navbar(){
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav">
-                        <li className="nav-item active px-4">
+                        {/* <li className="nav-item active px-4"> */}
                         {/* <a className="nav-link text-white px-4" href="#Home">Home</a> */}
 
-                            <Link className="nav-link text-white px-4" to="Home">Home</Link>
-                        </li>
+                            {/* <Link className="nav-link text-white px-4" to="Home">Home</Link> */}
+                        {/* </li> */}
                         <li className="nav-item ">
                             <Link className="nav-link text-white px-4" to="About">About</Link>
                             {/* <a className="nav-link text-white px-4" href="#About">About</a> */}

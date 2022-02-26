@@ -53,7 +53,7 @@ nav ul li{
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh; 
+  height: 80vh; 
   padding: 50px 0;  
   justify-content: center;
   font-family: 'Work Sans', sans-serif;
@@ -261,13 +261,13 @@ list-style: none;
 /* -----------------------------------------------ABOUT MOBILE------------------------------------------------------------------------- */
 @media only screen and (max-device-width: 480px) {
   #About{
-      height: 300vh;
+      height: 250vh;
   }
    #home-bg{
-     height: 130vh;
+     height: 100vh;
    }
    #conatct-page{
-     height: 170vh;
+     height: 140vh;
    }
  }
 
